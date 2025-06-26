@@ -4,7 +4,7 @@ import google.generativeai as gemini
 
 # find api key at https://aistudio.google.com/apikey
 
-API_KEY = "AIzaSyCmQH5zkzCBEL-FrovXNTAGHBdqyro1ozc"
+API_KEY = "YOUR_API_KEY"
 gemini.configure(api_key=API_KEY)
 
 model = gemini.GenerativeModel("gemini-2.0-flash")
